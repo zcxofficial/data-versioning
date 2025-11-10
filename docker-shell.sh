@@ -4,9 +4,9 @@ set -e
 
 export BASE_DIR=$(pwd)
 export SECRETS_DIR=$(pwd)/../secrets/
-export GCS_BUCKET_NAME="cheese-app-data-versioning"
-export GCP_PROJECT="ac215-project"
-export GCP_ZONE="us-central1-a"
+export GCS_BUCKET_NAME="your-uniq-name-data-versioning"   # ← 你的桶名
+export GCP_PROJECT="hw2cz-477822"                 # ← 你的 GCP 项目ID
+export GCP_ZONE="us-central1-a"                            # ← 任一有效 zone（与你区域匹配）
 export GOOGLE_APPLICATION_CREDENTIALS="/secrets/data-service-account.json"
 
 
